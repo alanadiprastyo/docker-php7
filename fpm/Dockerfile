@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM docker-registry:5000/ubuntu:latest
 
 RUN apt-get update && apt-get install -y software-properties-common language-pack-en-base \
     && LC_ALL=en_US.UTF-8 add-apt-repository -y ppa:ondrej/php \
