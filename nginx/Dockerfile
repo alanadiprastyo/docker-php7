@@ -1,4 +1,4 @@
-FROM nginx
+FROM docker-registry:5000/nginx
 
 ADD ./default.conf /etc/nginx/conf.d/
 
